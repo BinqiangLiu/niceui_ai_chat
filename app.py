@@ -3,7 +3,7 @@ from typing import List, Tuple
 
 from langchain.chains import ConversationChain
 from langchain.chat_models import ChatOpenAI
-
+import openai
 from nicegui import Client, ui
 import os
 import sys
